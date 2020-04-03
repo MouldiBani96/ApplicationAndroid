@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listview"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp"
+
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_marginRight="10dp"
+        android:textSize="20sp"
+        android:textColor="#4C70F0"
+        android:hint="Title"
+        android:layoutDirection="rtl"
+        android:padding="6dp"
+        />
+
+
+
+</LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#F3C940"
+            android:text="السعر الأدنى :  "
+            android:layout_marginRight="10dp"
+            android:layoutDirection="rtl"
+            android:textSize="14sp"
+            android:layout_gravity="right"
+            />
+        <TextView
+            android:id="@+id/prixu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:textSize="14sp"
+            android:layout_gravity="right"
+            android:hint="السعر"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00A509"
+            android:layout_marginRight="10dp"
+            android:text="السعر المتناول :  "
+            android:layoutDirection="rtl"
+            android:textSize="14sp"
+            android:layout_gravity="right"
+            />
+        <TextView
+            android:id="@+id/prixmoy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:textSize="14sp"
+            android:layout_gravity="right"
+            android:hint="السعر"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#DD2929"
+                android:layout_marginRight="10dp"
+                android:text="السعر الأقصى :  "
+                android:layoutDirection="rtl"
+                android:textSize="14sp"
+                android:layout_gravity="right"
+                />
+            <TextView
+                android:id="@+id/prixmax"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:textSize="14sp"
+                android:layout_gravity="right"
+                android:hint="السعر"
+                />
+    </LinearLayout>
+</LinearLayout>
